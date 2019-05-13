@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function checkSpam(str) {
+                var lowerStr = str.toLowerCase();
+                return !!(~lowerStr.indexOf('viagra') || ~lowerStr.indexOf('xxx'));
+                                }
+            alert( checkSpam('buy ViAgRA now') );
+            alert( checkSpam('free xxxxx') );
+            alert( checkSpam("innocent rabbit") );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

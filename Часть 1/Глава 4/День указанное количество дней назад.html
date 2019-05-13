@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function getDateAgo(date, days) {
+                date.setDate(date.getDate() - days);
+                return date.getDate();
+                                }
+
+            var date = new Date(2015, 0, 2);
+
+            alert( getDateAgo(date, 1) ); 
+            alert( getDateAgo(date, 2) );
+            alert( getDateAgo(date, 365) );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function filterRange(arr, a, b) {
+            var result = [];
+            for (var i = 0; i < arr.length; i++) {
+                if (arr[i] >= a && arr[i] <= b) {
+                    result.push(arr[i]);
+                                }
+                            }
+                return result;
+                    }
+            var arr = [6, 4, 2, 1, 0];
+            var filtered = filterRange(arr, 3, 7);
+            alert( filtered );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

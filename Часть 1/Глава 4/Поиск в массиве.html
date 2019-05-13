@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function find(array, value) {
+            for (var i = 0; i < array.length; i++) {
+                if (array[i] == value) return i;
+                                    }
+                return -1;
+                    }
+           arr = ["test", 2, 1.5, false];
+            find(arr, "test"); 
+            find(arr, 2); 
+            find(arr, 1.5); 
+            find(arr, 0);
+            var index = find (arr, 2);
+            alert( index);
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

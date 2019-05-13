@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function getLastDayOfMonth(year, month) {
+                var date = new Date(year, month + 1, 0);
+                return date.getDate();
+                            }
+
+            alert( getLastDayOfMonth(2012, 0) );
+            alert( getLastDayOfMonth(2012, 1) ); 
+            alert( getLastDayOfMonth(2013, 1) ); 
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

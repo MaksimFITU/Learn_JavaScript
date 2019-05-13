@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function getSecondsToday() {
+                var dateNow = new Date();
+                var today = new Date(dateNow.getFullYear(), dateNow.getMonth(), dateNow.getDate());
+                var diff = dateNow - today;
+                return Math.floor(diff / 1000);
+                                }
+
+            alert( getSecondsToday() ); 
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

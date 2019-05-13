@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function isEmpty(obj) {
+                var key;
+                for (key in obj) {
+                    return false;
+                            }
+                return true;
+                        }
+            var schedule = {};
+            alert( isEmpty(schedule) ); 
+            schedule["8:30"] = "подъём";
+            alert( isEmpty(schedule) ); 
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

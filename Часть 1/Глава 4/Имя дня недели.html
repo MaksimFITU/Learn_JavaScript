@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function getWeekDay(date) {
+                var days = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'];
+
+                return days[date.getDay()];
+                                    }
+
+            var date = new Date(2018, 10, 23);
+            alert( getWeekDay(date) );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

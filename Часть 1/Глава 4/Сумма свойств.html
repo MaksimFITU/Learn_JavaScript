@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            var salaries = {
+                "Вася": 100,
+                "Петя": 300,
+                "Даша": 250
+                    };
+            var sum = 0;
+            var key;
+            for (key in salaries) {
+                sum += salaries[key];                           }
+            alert( sum ); 
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

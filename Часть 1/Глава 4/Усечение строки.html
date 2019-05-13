@@ -1,0 +1,28 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+           function truncate(str, maxlength) {
+                if (str.length > maxlength) {
+                    return str.slice(0, maxlength - 3) + '...';
+                                        }
+                return str;
+                    }
+alert( truncate("Вот, что я хотел бы сказать на эту тему:", 20) );
+alert( truncate("Всем привет!", 20) );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

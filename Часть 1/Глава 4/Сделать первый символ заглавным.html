@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            function ucFirst(str) {
+            // только пустая строка в логическом контексте даст false
+            if (!str) return str;
+            return str[0].toUpperCase() + str.slice(1);
+                                }
+            alert( ucFirst("коля") );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>

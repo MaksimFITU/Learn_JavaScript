@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <!-- Тег meta для указания кодировки -->
+    <meta charset="utf-8">
+</head>
+
+<body>
+
+    <p>Начало документа...</p>
+
+    <script>
+            var numbers = [];
+            while (true) {
+                var value = prompt("Введите число", 0);
+                if (value === "" || value === null || isNaN(value)) break;
+                numbers.push(+value);
+                            }
+            var sum = 0;
+            for (var i = 0; i < numbers.length; i++) {
+                sum += numbers[i];
+                            }
+            alert( sum );
+    </script>
+
+    <p>...Конец документа</p>
+
+</body>
+
+</html>
